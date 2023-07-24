@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ask Me Anything</title>
+    <title>Soy la IA de Alverto</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container">
-        <h1 class="mt-5">ChatGPT for your Web</h1>
+        <h1 class="mt-5">Soy la IA de Alverto</h1>
         <form method="POST" class="mt-4">
             <div class="form-group">
-                <label for="query">Ask me anything</label>
-                <input type="text" class="form-control" id="query" name="query" placeholder="Your question">
+                <label for="query">Preguntame lo que quieras</label>
+                <input type="text" class="form-control" id="query" name="query" placeholder="Tu pregunta">
             </div>
-            <button type="submit" class="btn btn-primary">Ask</button>
+            <button type="submit" class="btn btn-primary">Pregunta</button>
         </form>
         {% if answer %}
             <div class="mt-5">
-                <h4>Answer:</h4>
+                <h4>Respuesta:</h4>
                 <p>{{ answer }}</p>
             </div>
         {% endif %}

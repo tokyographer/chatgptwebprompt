@@ -2,8 +2,9 @@ constants.py
 __pycache__
 .DS_Store
 data/
-
+venv/
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+index.html
